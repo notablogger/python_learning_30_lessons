@@ -28,11 +28,11 @@ result=0.0
 cont = "y"
 while cont=="y":
     if(result==0):
-        n1 = int(input("Enter first number: "))
+        n1 = float(input("Enter first number: "))
     else:
         n1 = result
     operation=input("Enter operation \n+\n-\n*\n/\n")
-    n2 = int(input("Enter second number: "))
+    n2 = float(input("Enter second number: "))
     result=operations.get(operation)(n1,n2)
 
     print(f"Result:{n1} {operation} {n2} = {result} ")
