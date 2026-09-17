@@ -13,6 +13,11 @@
     </inspection_tool>
     <inspection_tool class="PyChainedComparisonsInspection" enabled="true" level="INFORMATION" enabled_by_default="true" />
     <inspection_tool class="PyStringConversionWithoutDunderMethodInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredTypes">
+        <list>
+          <option value="types.NoneType" />
+        </list>
+      </option>
       <option name="reportedTypes">
         <list>
           <option value="object" />
