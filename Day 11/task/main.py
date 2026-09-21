@@ -81,7 +81,7 @@ def play_black_jack():
     computer_final_score=calculate_score(computer_cards)
     if user_final_score==computer_final_score:
         print("Draw")
-    if user_final_score>21:
+    elif user_final_score>21:
         print("you lose")
     elif computer_final_score>21:
         print("you Win")
